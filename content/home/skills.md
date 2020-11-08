@@ -32,6 +32,12 @@ subtitle = ""
   name = "Photography"
   description = "10%"
 
+[[feature]]
+  icon = "think-eco"
+  icon_pack = "custom"
+  name = "Custom icon"
+  description = "10%"
+
 # Uncomment to use emoji icons.
 # [[feature]]
 #  icon = ":smile:"
