@@ -7,10 +7,15 @@ type: docs
 date: "2019-07-09T00:00:00+01:00"
 draft: false
 # authors: ["admin"]
-featured: true
+featured: false
 categories: ["Art"]
-images: 
-    - ../../../img/project1-images/icon22.png
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: "featured.png"
+  focal_point: ""
+  preview_only: true
 menu:
   example:
     parent: 1. Example Topic
