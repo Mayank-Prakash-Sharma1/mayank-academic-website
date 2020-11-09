@@ -7,7 +7,7 @@ type: docs
 date: "2019-07-09T00:00:00+01:00"
 draft: false
 # authors: ["admin"]
-featured: false
+featured: true
 categories: ["Art"]
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
