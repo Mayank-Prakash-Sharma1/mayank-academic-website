@@ -14,9 +14,9 @@ categories: ["Art"]
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   placement: 1
-  caption: "featured.png"
-  focal_point: ""
-  preview_only: false
+  caption: "bfghghg"
+  # focal_point: ""
+  # preview_only: false
 menu:
   example:
     parent: 1. Example Topic
