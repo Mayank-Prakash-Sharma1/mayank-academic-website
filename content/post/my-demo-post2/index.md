@@ -12,6 +12,10 @@ lastmod: 2020-08-28T16:16:32+05:30
 featured: false
 draft: false
 
+header:
+  image: "/headers/aaa.png"
+  caption: "Yay! It works!"
+  
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
