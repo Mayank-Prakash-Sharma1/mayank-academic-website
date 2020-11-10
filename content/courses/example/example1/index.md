@@ -9,14 +9,28 @@ draft: false
 # authors: ["admin"]
 featured: false
 categories: ["Art"]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+# image:
+#   placement: 1
+#   caption: "bfghghg"
+  # focal_point: ""
+  # preview_only: false
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  placement: 1
-  caption: "bfghghg"
-  # focal_point: ""
-  # preview_only: false
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+header:
+  image: "/headers/aaa.png"
+  caption: "Yay! It works!"
+  
 menu:
   example:
     parent: 1. Example Topic

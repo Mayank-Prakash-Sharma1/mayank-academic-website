@@ -12,18 +12,6 @@ lastmod: 2020-08-28T16:16:32+05:30
 featured: false
 draft: false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-header:
-  image: "/headers/aaa.png"
-  caption: "Yay! It works!"
-
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -31,4 +19,4 @@ header:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-my demo post page. 
+my demo post page 2222222222. 
