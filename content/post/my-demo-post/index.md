@@ -9,7 +9,7 @@ tags: []
 categories: []
 date: 2020-08-28T16:16:32+05:30
 lastmod: 2020-08-28T16:16:32+05:30
-featured: true
+featured: false
 draft: false
 
 # Featured image
@@ -19,6 +19,10 @@ image:
   caption: ""
   focal_point: ""
   preview_only: true
+
+header:
+  image: "/headers/aaa.png"
+  caption: "Yay! It works!"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
