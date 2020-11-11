@@ -23,14 +23,15 @@ categories: ["Art"]
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
+  placement: 1
   caption: ""
   focal_point: ""
   preview_only: false
 
 header:
-  image: "/headers/aaa.png"
+  image: "../../../img/headers/aaa.png"
   caption: "Yay! It works!"
-  
+
 menu:
   example:
     parent: 1. Example Topic
