@@ -4,42 +4,21 @@
 // My buttons
 
 .mak-button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
+    background-color: #4CAF50; /* Green */
+    // border: none;
+    color: white;
+    padding: 9px 18px;
     text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .mak-button span {
-    cursor: pointer;
+    // text-decoration: none;
     display: inline-block;
-    position: relative;
-    transition: 0.5s;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
   }
   
-  .mak-button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .mak-button:hover span {
-    padding-right: 25px;
-  }
-  
-  .mak-button:hover span:after {
-    opacity: 1;
-    right: 0;
+  .mak-button:hover {
+    box-shadow: 0 6px 9px 0 rgba(0,0,0,0.24),0 9px 27px 0 rgba(0,0,0,0.19);
   }
 
