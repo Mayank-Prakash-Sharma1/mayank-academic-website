@@ -13,7 +13,9 @@ menu:
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGJ2DD6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
 ssdsds Here are some more tips for getting started with Academic:
 
 <button type="submit" class="mak-button" style="vertical-align:middle" onclick="window.open('../../../docs/my-attach2.pdf')">Download! gffgdgdghfhfdghfdhgdgffdsgdfgrd</button>
