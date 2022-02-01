@@ -1,0 +1,20 @@
+{{ "<!-- authors -->" | safeHTML }}
+<div class="widget widget-author">
+  <h4 class="widget-title">{{ i18n "authors" }}</h4>
+  {{ range first 3 (where site.RegularPages "Section" "author" )}}
+  <div class="media align-items-center">
+    <div class="mr-3">
+      {{ if .Params.Image }}
+      <img class="widget-author-image lozad" data-src="{{ .Params.Image | absURL }}" alt="{{.Title}}">
+      {{else if .Params.Email}}
+      <img class="widget-author-image lozad"
+        data-src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=256&pg&d=identicon">
+      {{ end }}
+    </div>
+    <div class="media-body">
+      <h5 class="mb-1"><a class="post-title" href="{{.Permalink}}">{{ .Title }}</a></h5>
+      <span>{{ .Params.Description | markdownify }}</span>
+    </div>
+  </div>
+  {{ end }}
+</div>
