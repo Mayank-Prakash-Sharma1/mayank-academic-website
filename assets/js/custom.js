@@ -47,7 +47,7 @@ function CopyToClipboard(containerid) {
   }
 
 
-
+// rnd to disable disqus ads ....not checked yet if this works
   document.addEventListener('DOMContentLoaded', function () {
     let disqus = document.getElementById('disqus_thread');
 
