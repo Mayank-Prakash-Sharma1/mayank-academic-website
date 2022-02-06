@@ -22,3 +22,13 @@
     box-shadow: 0 6px 9px 0 rgba(0,0,0,0.24),0 9px 27px 0 rgba(0,0,0,0.19);
   }
 
+
+
+//   iframe[sandbox]:not([sandbox=""]) {
+//     display: none !important;
+// }
+
+
+iframe[title]:not([title=""]) {
+  display: none !important;
+}
